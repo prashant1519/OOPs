@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+
+// 1. INheritance
+    // class cat{
+
+    //     constructor(n,m){
+    //      this.legs="4"
+    //      this.ears="2"
+    //      this.family=n;
+    //      this.fur=m;
+    //     }
+    // }
+
+    // class cheetah extends cat{
+
+    //     constructor(n,m){
+    //         super(n,m)
+    //         this.agrressive="true"
+    //     }
+
+    // }
+
+    // class lion extends cheetah{
+    //     constructor(n,m){
+    //     super(n,m)
+
+    //     this.power="10"
+    //     }
+    // }
+
+    // let e=new lion("cats","true")
+    // console.log(e);
+
+
+    //  2.Encupsu
+
+    // class onlinepay{
+
+    //     constructor(){
+    //         var cvc
+    //         var password
+    //     }
+
+
+    //     getName(){
+    //         return this.cvc
+    //     }
+
+    //     setName(value){
+    //       this.cvc=value;
+    //     }
+
+
+    //     getName(){
+    //         return this.password
+    //     }
+
+    //     setName(value){
+    //         this.password=value
+    //     }
+
+    // }
+
+    // let r=new onlinepay()
+    // r.setName("2345382")
+    // r.setName("russiamoscow")
+    // console.log(r.getName());
+
+    // 3.Abstract
+
+    class product{
+    constructor(n,m){
+     this.name=n;
+     this.rating=m
+     this.items=[];
+    }
+
+    productitem(value){
+        this.items.push(value)
+    }
+
+    }
+    let e=new product("aloo phugiaa","10")
+    e.productitem("aloo","mirchi")
+    console.log(e);
+
+</script>
